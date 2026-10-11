@@ -51,7 +51,7 @@ def run(name=None):
             if pending.exists() and count:pending.unlink()
             raise
         print(filename+': verified '+str(count)+' bytes')
-    print('Extract the Linux host ZIP and run ./launch-game.sh on Linux x64. Original campaigns/combat remain incomplete.')
+    print('Windows: double-click Launch-Game.cmd. Linux x64: extract the host ZIP and run ./launch-game.sh. Original campaigns/combat remain incomplete.')
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)

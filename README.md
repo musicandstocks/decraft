@@ -1,17 +1,23 @@
 # Decraft build download
 
-This delivery contains the tested Linux host and the source/runtime SDK as verified 32 MiB chunks. Shared chunks are included once. The original ZIP files are reassembled exactly, with checks of every chunk and the complete archive.
+## Windows 10/11, 64-bit
 
-1. Download this branch using GitHub's **Code → Download ZIP** button and extract it.
-2. Install Python 3 if necessary, then open a terminal in the extracted folder.
-3. Run `python assemble.py` (or `py assemble.py` on Windows).
-4. Extract `Decraft-combined-linux-host-and-sources.zip` and run `./launch-game.sh` on Linux x64.
+1. Download this branch with **Code → Download ZIP** and extract it.
+2. Double-click **Launch-Game.cmd** in the extracted folder.
+3. The launcher downloads local, checksum-verified Python and Java 8 runtimes, reconstructs the host ZIP, and extracts the game into `Decraft-game`. No separate Python/Java installation or administrator rights are required.
+4. Wait for the modpack menu; the first load can take about ten minutes. Open **New World** to use the Minecraft hub and five destination gates.
 
-The Linux host includes the original Forge modpack, Java, verified assets, the Minecraft hub and five saved destination layouts. Entry/return checks and a moved BT3 checkpoint save/reload passed. These are limited imports/adaptations; full original campaigns, enemies, game-specific combat and a Windows fused-game launcher remain unfinished. The SDK includes the selected Windows DLL and matching console outputs.
+Already have the old download? Download `Decraft-Windows-launch-fix.zip` from this branch and extract its contents into your existing game folder (the one containing `runtime` and `tools`), or your original downloaded branch folder containing `assemble.py` and `chunks`. Double-click **Launch-Game.cmd**. Existing saved progress is preserved.
 
-The complete ZIP hashes are:
+The launcher keeps its console open on errors and prints the log folder. Internet access to NuGet and GitHub is needed for the first runtime setup; subsequent launches reuse the installed local runtimes. Use a writable local folder and allow the game through local loopback firewall prompts.
 
-- Linux host: `72d802e117fd6c69d1e20d6f5f26a5a5906f5852158545cd826775503cd6d8d2`
-- Source SDK: `3eb0553d2324f79923e0b3e7545817ed323951097ed620a6ae5a219e8f47914d`
+## Linux x64 / source SDK
 
-Existing different ZIP files are preserved. Reassembly does not run the game, modify saved progress, download dependencies or publish files. All original release files remain in the development workspace.
+Run `python3 assemble.py`, extract `Decraft-combined-linux-host-and-sources.zip`, and run `./launch-game.sh` on a desktop with Python 3 and OpenGL/OpenAL support. Reassembly verifies every chunk and the complete ZIP and preserves existing different archives. `--archive Decraft-combined-sources-and-runtime.zip` reconstructs only the SDK.
+
+The original host ZIP and SDK are unchanged. Windows uses the same Forge modpack, supplied Windows native libraries, shared runtime DLL, Minecraft hub and five persistent imported/adapted destinations. Complete original campaigns, enemies and game-specific combat remain unfinished. Windows executable checks run under Wine in the development environment; native Windows desktop behavior still needs verification.
+
+Original archive SHA-256 hashes:
+
+- Host: `72d802e117fd6c69d1e20d6f5f26a5a5906f5852158545cd826775503cd6d8d2`
+- SDK: `3eb0553d2324f79923e0b3e7545817ed323951097ed620a6ae5a219e8f47914d`
