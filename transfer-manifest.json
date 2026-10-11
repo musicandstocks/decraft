@@ -1,0 +1,277 @@
+{
+  "format": 1,
+  "part_size": 33554432,
+  "archives": [
+    {
+      "archive": "Decraft-combined-linux-host-and-sources.zip",
+      "sha256": "72d802e117fd6c69d1e20d6f5f26a5a5906f5852158545cd826775503cd6d8d2",
+      "bytes": 1086128431,
+      "parts": [
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part001",
+          "bytes": 33554432,
+          "sha256": "fdb81c250efc5e72165eec1ee56f3ff50b7b7110e6f18f77c8012f896e20b983",
+          "path": "chunks/fdb81c250efc5e72165eec1ee56f3ff50b7b7110e6f18f77c8012f896e20b983.bin"
+        },
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part002",
+          "bytes": 33554432,
+          "sha256": "77e28ac9e2a9b21da77cd225dbdd4ec9f48e31bdbd9770122554fc9942c8a6a6",
+          "path": "chunks/77e28ac9e2a9b21da77cd225dbdd4ec9f48e31bdbd9770122554fc9942c8a6a6.bin"
+        },
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part003",
+          "bytes": 33554432,
+          "sha256": "ad8445f36e51451b9e05e460dacc0ce4a427792df3f647ac35070f477c2712e7",
+          "path": "chunks/ad8445f36e51451b9e05e460dacc0ce4a427792df3f647ac35070f477c2712e7.bin"
+        },
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part004",
+          "bytes": 33554432,
+          "sha256": "ccad2e1965fd67d3951e745d1e540cfb7030fd209dab7702f10cf113ead4fef8",
+          "path": "chunks/ccad2e1965fd67d3951e745d1e540cfb7030fd209dab7702f10cf113ead4fef8.bin"
+        },
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part005",
+          "bytes": 33554432,
+          "sha256": "522ed9a5d54682fadf0b74aa83f94c96ab7683f0e26f6f63f342ef85a36df66d",
+          "path": "chunks/522ed9a5d54682fadf0b74aa83f94c96ab7683f0e26f6f63f342ef85a36df66d.bin"
+        },
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part006",
+          "bytes": 33554432,
+          "sha256": "d523f7c3b28175a489160a3c603d6e58d1d06e05fad79ec3ac7e62eb61a0cb74",
+          "path": "chunks/d523f7c3b28175a489160a3c603d6e58d1d06e05fad79ec3ac7e62eb61a0cb74.bin"
+        },
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part007",
+          "bytes": 33554432,
+          "sha256": "cd40b1b0536b53c0a954736d87f58d89803ff450c4af84fc08d2a8b5c99f1bdf",
+          "path": "chunks/cd40b1b0536b53c0a954736d87f58d89803ff450c4af84fc08d2a8b5c99f1bdf.bin"
+        },
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part008",
+          "bytes": 33554432,
+          "sha256": "39a07fa3f70c45af9a72e1d07bb40c97d23d972911827e4ab6cbec8e974367fb",
+          "path": "chunks/39a07fa3f70c45af9a72e1d07bb40c97d23d972911827e4ab6cbec8e974367fb.bin"
+        },
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part009",
+          "bytes": 33554432,
+          "sha256": "a82fd6639081757d4f7897468de57cd94555561f0ccb1ce01fc1111268e5c1af",
+          "path": "chunks/a82fd6639081757d4f7897468de57cd94555561f0ccb1ce01fc1111268e5c1af.bin"
+        },
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part010",
+          "bytes": 33554432,
+          "sha256": "9df144722fa4a6d89b40d5fc9292f638ab3de1337b23bb1c2fe304f481446d01",
+          "path": "chunks/9df144722fa4a6d89b40d5fc9292f638ab3de1337b23bb1c2fe304f481446d01.bin"
+        },
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part011",
+          "bytes": 33554432,
+          "sha256": "4390fb66a0b449e5fb88c00194a24229ab574850acf53252c45399514b10a10d",
+          "path": "chunks/4390fb66a0b449e5fb88c00194a24229ab574850acf53252c45399514b10a10d.bin"
+        },
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part012",
+          "bytes": 33554432,
+          "sha256": "5c17287e38609a4778fcbd4cc8c65d7a557b6779d85aafc5b169fcf6d190f24e",
+          "path": "chunks/5c17287e38609a4778fcbd4cc8c65d7a557b6779d85aafc5b169fcf6d190f24e.bin"
+        },
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part013",
+          "bytes": 33554432,
+          "sha256": "e75d3bab20608542b92daa820b75b7a85515faa19919669c0e378ffed5e6579d",
+          "path": "chunks/e75d3bab20608542b92daa820b75b7a85515faa19919669c0e378ffed5e6579d.bin"
+        },
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part014",
+          "bytes": 33554432,
+          "sha256": "06cd86a25e7c75688d24aee998c6f7e75e513193fe0b0026a80a99015c5e8680",
+          "path": "chunks/06cd86a25e7c75688d24aee998c6f7e75e513193fe0b0026a80a99015c5e8680.bin"
+        },
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part015",
+          "bytes": 33554432,
+          "sha256": "39ccec089fa7f8624556191a2abace081dd7a167559683d5678fc32e738f878c",
+          "path": "chunks/39ccec089fa7f8624556191a2abace081dd7a167559683d5678fc32e738f878c.bin"
+        },
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part016",
+          "bytes": 33554432,
+          "sha256": "d3df05879e5efe7a0634d369fe224a5921a2b5bebbe0787344facb82e7b8bcb1",
+          "path": "chunks/d3df05879e5efe7a0634d369fe224a5921a2b5bebbe0787344facb82e7b8bcb1.bin"
+        },
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part017",
+          "bytes": 33554432,
+          "sha256": "667b75576f70d7e4a5cac371baf51d50c8ef6648673c39bc7c3aead4dc99e7fe",
+          "path": "chunks/667b75576f70d7e4a5cac371baf51d50c8ef6648673c39bc7c3aead4dc99e7fe.bin"
+        },
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part018",
+          "bytes": 33554432,
+          "sha256": "a06cf19944c7522d9d4924176a70915450ef30fe64413e44d3c50b3513d3e7c7",
+          "path": "chunks/a06cf19944c7522d9d4924176a70915450ef30fe64413e44d3c50b3513d3e7c7.bin"
+        },
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part019",
+          "bytes": 33554432,
+          "sha256": "59d6519eca6ec25a604e47de69d006cff2ed66b535d0c23d34045f08cdb00979",
+          "path": "chunks/59d6519eca6ec25a604e47de69d006cff2ed66b535d0c23d34045f08cdb00979.bin"
+        },
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part020",
+          "bytes": 33554432,
+          "sha256": "3be2e61d03796f7e0d4fa53204940c2fb1e9c9857c6c599981d8baf74a5bf642",
+          "path": "chunks/3be2e61d03796f7e0d4fa53204940c2fb1e9c9857c6c599981d8baf74a5bf642.bin"
+        },
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part021",
+          "bytes": 33554432,
+          "sha256": "05106521ecca33bd0f7507e69d0d3c3ffa10d469c0a7c5562a9f1d123c91e357",
+          "path": "chunks/05106521ecca33bd0f7507e69d0d3c3ffa10d469c0a7c5562a9f1d123c91e357.bin"
+        },
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part022",
+          "bytes": 33554432,
+          "sha256": "3a88e23c618009aa40303f91f9bb5060d2913065f1fdf985403986bb924838b7",
+          "path": "chunks/3a88e23c618009aa40303f91f9bb5060d2913065f1fdf985403986bb924838b7.bin"
+        },
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part023",
+          "bytes": 33554432,
+          "sha256": "2ab80ea02f02c0d07fd97d5d7a153d327cc8531db7a010e836c2d0f39354f776",
+          "path": "chunks/2ab80ea02f02c0d07fd97d5d7a153d327cc8531db7a010e836c2d0f39354f776.bin"
+        },
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part024",
+          "bytes": 33554432,
+          "sha256": "49691b74e8fa8156125110ccfd6e8054f83d9f26bb5ef663a10431298f7a7fed",
+          "path": "chunks/49691b74e8fa8156125110ccfd6e8054f83d9f26bb5ef663a10431298f7a7fed.bin"
+        },
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part025",
+          "bytes": 33554432,
+          "sha256": "64d9ce2a479fd4da7d7ecc5e089a51140bddf6b35da74082cb1024102fed844a",
+          "path": "chunks/64d9ce2a479fd4da7d7ecc5e089a51140bddf6b35da74082cb1024102fed844a.bin"
+        },
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part026",
+          "bytes": 33554432,
+          "sha256": "2b9991b324456115ca60b1f717fe2e814f821b835f959f654bed02fd8fdb2ca5",
+          "path": "chunks/2b9991b324456115ca60b1f717fe2e814f821b835f959f654bed02fd8fdb2ca5.bin"
+        },
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part027",
+          "bytes": 33554432,
+          "sha256": "841c1ca6ea40bdc9b0277331310c6898b490b9d508d86741c72015ae383c17e6",
+          "path": "chunks/841c1ca6ea40bdc9b0277331310c6898b490b9d508d86741c72015ae383c17e6.bin"
+        },
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part028",
+          "bytes": 33554432,
+          "sha256": "4b4ae72c169591445df6b056aecbb86ba280ae6327d6e1ba742720103688c35c",
+          "path": "chunks/4b4ae72c169591445df6b056aecbb86ba280ae6327d6e1ba742720103688c35c.bin"
+        },
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part029",
+          "bytes": 33554432,
+          "sha256": "bd329aaa279ec68958558fa4a7eafaee52eb6f60602a3796a77ed250555c3924",
+          "path": "chunks/bd329aaa279ec68958558fa4a7eafaee52eb6f60602a3796a77ed250555c3924.bin"
+        },
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part030",
+          "bytes": 33554432,
+          "sha256": "7d82761f807584f00584dd59708f084ecf29b343bfa316df212370cc4d6bc6cc",
+          "path": "chunks/7d82761f807584f00584dd59708f084ecf29b343bfa316df212370cc4d6bc6cc.bin"
+        },
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part031",
+          "bytes": 33554432,
+          "sha256": "56f36eed7c06d3bcc50588cddb239b1a94c6c1e1df7c0816c94b82bef968bfd9",
+          "path": "chunks/56f36eed7c06d3bcc50588cddb239b1a94c6c1e1df7c0816c94b82bef968bfd9.bin"
+        },
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part032",
+          "bytes": 33554432,
+          "sha256": "b8d582f323f5b6c24bf3dbd807262dcab0252dd147c22d1ed04d9eec84a93c41",
+          "path": "chunks/b8d582f323f5b6c24bf3dbd807262dcab0252dd147c22d1ed04d9eec84a93c41.bin"
+        },
+        {
+          "name": "Decraft-combined-linux-host-and-sources.zip.part033",
+          "bytes": 12386607,
+          "sha256": "d231cf30d8bed116648639ce8b9a35a98b437de82e6e7c06f220d2e3c2578fd7",
+          "path": "chunks/d231cf30d8bed116648639ce8b9a35a98b437de82e6e7c06f220d2e3c2578fd7.bin"
+        }
+      ]
+    },
+    {
+      "archive": "Decraft-combined-sources-and-runtime.zip",
+      "sha256": "3eb0553d2324f79923e0b3e7545817ed323951097ed620a6ae5a219e8f47914d",
+      "bytes": 278086863,
+      "parts": [
+        {
+          "name": "Decraft-combined-sources-and-runtime.zip.part001",
+          "bytes": 33554432,
+          "sha256": "fdb81c250efc5e72165eec1ee56f3ff50b7b7110e6f18f77c8012f896e20b983",
+          "path": "chunks/fdb81c250efc5e72165eec1ee56f3ff50b7b7110e6f18f77c8012f896e20b983.bin"
+        },
+        {
+          "name": "Decraft-combined-sources-and-runtime.zip.part002",
+          "bytes": 33554432,
+          "sha256": "77e28ac9e2a9b21da77cd225dbdd4ec9f48e31bdbd9770122554fc9942c8a6a6",
+          "path": "chunks/77e28ac9e2a9b21da77cd225dbdd4ec9f48e31bdbd9770122554fc9942c8a6a6.bin"
+        },
+        {
+          "name": "Decraft-combined-sources-and-runtime.zip.part003",
+          "bytes": 33554432,
+          "sha256": "ad8445f36e51451b9e05e460dacc0ce4a427792df3f647ac35070f477c2712e7",
+          "path": "chunks/ad8445f36e51451b9e05e460dacc0ce4a427792df3f647ac35070f477c2712e7.bin"
+        },
+        {
+          "name": "Decraft-combined-sources-and-runtime.zip.part004",
+          "bytes": 33554432,
+          "sha256": "ccad2e1965fd67d3951e745d1e540cfb7030fd209dab7702f10cf113ead4fef8",
+          "path": "chunks/ccad2e1965fd67d3951e745d1e540cfb7030fd209dab7702f10cf113ead4fef8.bin"
+        },
+        {
+          "name": "Decraft-combined-sources-and-runtime.zip.part005",
+          "bytes": 33554432,
+          "sha256": "522ed9a5d54682fadf0b74aa83f94c96ab7683f0e26f6f63f342ef85a36df66d",
+          "path": "chunks/522ed9a5d54682fadf0b74aa83f94c96ab7683f0e26f6f63f342ef85a36df66d.bin"
+        },
+        {
+          "name": "Decraft-combined-sources-and-runtime.zip.part006",
+          "bytes": 33554432,
+          "sha256": "d523f7c3b28175a489160a3c603d6e58d1d06e05fad79ec3ac7e62eb61a0cb74",
+          "path": "chunks/d523f7c3b28175a489160a3c603d6e58d1d06e05fad79ec3ac7e62eb61a0cb74.bin"
+        },
+        {
+          "name": "Decraft-combined-sources-and-runtime.zip.part007",
+          "bytes": 33554432,
+          "sha256": "cd40b1b0536b53c0a954736d87f58d89803ff450c4af84fc08d2a8b5c99f1bdf",
+          "path": "chunks/cd40b1b0536b53c0a954736d87f58d89803ff450c4af84fc08d2a8b5c99f1bdf.bin"
+        },
+        {
+          "name": "Decraft-combined-sources-and-runtime.zip.part008",
+          "bytes": 33554432,
+          "sha256": "5c9b1435fc3348647d0d6f1dbbd52f3327f591d974414b59e59fcb3866784fd1",
+          "path": "chunks/5c9b1435fc3348647d0d6f1dbbd52f3327f591d974414b59e59fcb3866784fd1.bin"
+        },
+        {
+          "name": "Decraft-combined-sources-and-runtime.zip.part009",
+          "bytes": 9651407,
+          "sha256": "bd79b0a9a636565c07b3dd31a581da396259b100f758b0f3af50bb38e666dc4d",
+          "path": "chunks/bd79b0a9a636565c07b3dd31a581da396259b100f758b0f3af50bb38e666dc4d.bin"
+        }
+      ]
+    }
+  ],
+  "unique_chunk_bytes": 1129334270,
+  "part_file_names": 42,
+  "unique_chunks": 35,
+  "original_game_complete": false,
+  "scope": "Verified original Linux-host destination test build and source SDK; original campaigns/combat incomplete"
+}
