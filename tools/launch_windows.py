@@ -19,6 +19,7 @@ JAVA_SHA256 = '82e2cdc6693737c5998445b31f69668fa0da77c7705121053f6508ac84961123'
 JAVA_EXE_SHA256 = '46df95bb47e2ba2b10736cee2ab543289c66021611f1ec67d0d55d5128228c20'
 HOST_NAME = 'Decraft-combined-linux-host-and-sources.zip'
 HOST_SHA256 = '72d802e117fd6c69d1e20d6f5f26a5a5906f5852158545cd826775503cd6d8d2'
+ORIGINAL_LAUNCHER_SHA256 = 'ee2ed7492be9da20165603d7d85a93bd68dc170357b248e9fced9bbb9fff5758'
 ROOT = Path(__file__).resolve().parent.parent
 
 
@@ -129,11 +130,45 @@ def prepare_java(game, supplied=None):
     return java
 
 
+def install_launcher_update(game, root=ROOT):
+    """Apply this repair when the host was extracted from the older archive."""
+    source = root / 'tools/launch_combined.py'
+    destination = game / 'tools/launch_combined.py'
+    if source.resolve() == destination.resolve():
+        return
+    current = digest(source)
+    existing = digest(destination)
+    if current == existing:
+        return
+    if existing != ORIGINAL_LAUNCHER_SHA256:
+        raise RuntimeError('A different existing launcher is preserved: ' + str(destination) +
+                           '. Extract the repair into a separate copy or inspect your custom changes first.')
+    backups = game / 'tools/.decraft-launcher-backups'
+    backups.mkdir(exist_ok=True)
+    backup = backups / (existing + '.py')
+    if backup.exists():
+        if digest(backup) != existing:
+            raise RuntimeError('Existing launcher backup differs; game launcher preserved')
+    else:
+        with backup.open('xb') as out, destination.open('rb') as old:
+            shutil.copyfileobj(old, out)
+    temporary = destination.with_suffix('.py.windows-update')
+    with temporary.open('xb') as out, source.open('rb') as repaired:
+        shutil.copyfileobj(repaired, out)
+    if digest(destination) != existing:
+        temporary.unlink()
+        raise RuntimeError('Game launcher changed during update; existing file preserved')
+    temporary.replace(destination)
+
+
 def prepare_config(game, java):
     sys.path.insert(0, str(game / 'tools'))
     from launch_combined import load_config, validate_config
     config = load_config(game / 'runtime/forge-launch.json')
     config['java'] = str(java)
+    # The companion service binds IPv4 loopback. This also avoids legacy
+    # Java 8 adapter-prefix enumeration failures with Wine/IPv6 interfaces.
+    config['prefer_ipv4_stack'] = True
     config['natives'] = str(game / 'runtime/host/bin/natives')
     for name in ('lwjgl64.dll', 'OpenAL64.dll', 'jinput-dx8_64.dll', 'jinput-raw_64.dll'):
         if not (Path(config['natives']) / name).is_file():
@@ -160,6 +195,7 @@ def main():
         raise RuntimeError('Launch-Game.cmd requires 64-bit Windows and 64-bit Python')
     game = find_game(args.game_root.resolve())
     print('Game folder: ' + str(game), flush=True)
+    install_launcher_update(game)
     java = prepare_java(game, args.java)
     config = prepare_config(game, java)
     from fusion_runtime import Kernel

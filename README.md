@@ -7,7 +7,7 @@
 3. The launcher downloads local, checksum-verified Python and Java 8 runtimes, reconstructs the host ZIP, and extracts the game into `Decraft-game`. No separate Python/Java installation or administrator rights are required.
 4. Wait for the modpack menu; the first load can take about ten minutes. Open **New World** to use the Minecraft hub and five destination gates.
 
-Already have the old download? Download `Decraft-Windows-launch-fix.zip` from this branch and extract its contents into your existing game folder (the one containing `runtime` and `tools`), or your original downloaded branch folder containing `assemble.py` and `chunks`. Double-click **Launch-Game.cmd**. Existing saved progress is preserved.
+Already have the old download? Download `Decraft-Windows-launch-fix.zip` from this branch and extract its contents into your existing game folder (the one containing `runtime` and `tools`), or your original downloaded branch folder containing `assemble.py` and `chunks`. Double-click **Launch-Game.cmd**. Existing saved progress is preserved. The Windows launcher uses Java's supported IPv4 compatibility mode.
 
 The launcher keeps its console open on errors and prints the log folder. Internet access to NuGet and GitHub is needed for the first runtime setup; subsequent launches reuse the installed local runtimes. Use a writable local folder and allow the game through local loopback firewall prompts.
 
