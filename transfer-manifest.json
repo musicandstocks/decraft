@@ -267,6 +267,98 @@
           "path": "chunks/bd79b0a9a636565c07b3dd31a581da396259b100f758b0f3af50bb38e666dc4d.bin"
         }
       ]
+    },
+    {
+      "archive": "Decraft-Legacy-Windows.zip",
+      "bytes": 453067445,
+      "sha256": "2ca73e85132578a856dd9bc7014440b6d5ea8c4b16e16da33861dc608d1458d9",
+      "parts": [
+        {
+          "name": "Decraft-Legacy-Windows.zip.part001",
+          "path": "chunks/ef898df8b406fdd3763d0f3f10e1f1d420510414baf4123e20504a38bc960c7a.bin",
+          "sha256": "ef898df8b406fdd3763d0f3f10e1f1d420510414baf4123e20504a38bc960c7a",
+          "bytes": 33554432
+        },
+        {
+          "name": "Decraft-Legacy-Windows.zip.part002",
+          "path": "chunks/e948b3914fa76dae4bd367e9c7d36ef2f1f3d4800fc4e00d25454bcb9626d26c.bin",
+          "sha256": "e948b3914fa76dae4bd367e9c7d36ef2f1f3d4800fc4e00d25454bcb9626d26c",
+          "bytes": 33554432
+        },
+        {
+          "name": "Decraft-Legacy-Windows.zip.part003",
+          "path": "chunks/b3286afd4fc81c61f1a788a0288420a8bfc83d3c36dd40ab618ae7e47c44135b.bin",
+          "sha256": "b3286afd4fc81c61f1a788a0288420a8bfc83d3c36dd40ab618ae7e47c44135b",
+          "bytes": 33554432
+        },
+        {
+          "name": "Decraft-Legacy-Windows.zip.part004",
+          "path": "chunks/8383dd5a5f98489679a1911503f7ebf329c480c0b6414745e078a3b3ed899e53.bin",
+          "sha256": "8383dd5a5f98489679a1911503f7ebf329c480c0b6414745e078a3b3ed899e53",
+          "bytes": 33554432
+        },
+        {
+          "name": "Decraft-Legacy-Windows.zip.part005",
+          "path": "chunks/eb897f6d0915421686ac508e74d08e644c20fd86ffa316896e7e0c25cfb27e87.bin",
+          "sha256": "eb897f6d0915421686ac508e74d08e644c20fd86ffa316896e7e0c25cfb27e87",
+          "bytes": 33554432
+        },
+        {
+          "name": "Decraft-Legacy-Windows.zip.part006",
+          "path": "chunks/c043eafaad6fa8a44fa1975c87d18b38e7155c0a440bfad8de4a563de5883168.bin",
+          "sha256": "c043eafaad6fa8a44fa1975c87d18b38e7155c0a440bfad8de4a563de5883168",
+          "bytes": 33554432
+        },
+        {
+          "name": "Decraft-Legacy-Windows.zip.part007",
+          "path": "chunks/b57eb354d731a5e493a0c521414c601a72ef48cf1a4052b4828a309c0b0b7dd2.bin",
+          "sha256": "b57eb354d731a5e493a0c521414c601a72ef48cf1a4052b4828a309c0b0b7dd2",
+          "bytes": 33554432
+        },
+        {
+          "name": "Decraft-Legacy-Windows.zip.part008",
+          "path": "chunks/416d0f2044f6f930f4ab8f60c7ca645788ca55cd98fefafd52a1aaf89c9daf05.bin",
+          "sha256": "416d0f2044f6f930f4ab8f60c7ca645788ca55cd98fefafd52a1aaf89c9daf05",
+          "bytes": 33554432
+        },
+        {
+          "name": "Decraft-Legacy-Windows.zip.part009",
+          "path": "chunks/bc68ee6826e1dee73e40ac361dfbcf795ef2326fa4b31ed0d8fd26759c0b89b1.bin",
+          "sha256": "bc68ee6826e1dee73e40ac361dfbcf795ef2326fa4b31ed0d8fd26759c0b89b1",
+          "bytes": 33554432
+        },
+        {
+          "name": "Decraft-Legacy-Windows.zip.part010",
+          "path": "chunks/56113feccc2893333c81047da9243974c835f83468e4eac930328ea1d9e194a1.bin",
+          "sha256": "56113feccc2893333c81047da9243974c835f83468e4eac930328ea1d9e194a1",
+          "bytes": 33554432
+        },
+        {
+          "name": "Decraft-Legacy-Windows.zip.part011",
+          "path": "chunks/428fe58bbb6d637c111871478a3b1ee8b8d5aa7e99893d184c866f294d9371a1.bin",
+          "sha256": "428fe58bbb6d637c111871478a3b1ee8b8d5aa7e99893d184c866f294d9371a1",
+          "bytes": 33554432
+        },
+        {
+          "name": "Decraft-Legacy-Windows.zip.part012",
+          "path": "chunks/8a0b1b114efa38e26d2268499797b53c6d5ec55a2403a283e512b58534e4c526.bin",
+          "sha256": "8a0b1b114efa38e26d2268499797b53c6d5ec55a2403a283e512b58534e4c526",
+          "bytes": 33554432
+        },
+        {
+          "name": "Decraft-Legacy-Windows.zip.part013",
+          "path": "chunks/15218b53ddccb20ff567d3dcc6935f3b9ddfc78950c8c02cecbec85c792328f3.bin",
+          "sha256": "15218b53ddccb20ff567d3dcc6935f3b9ddfc78950c8c02cecbec85c792328f3",
+          "bytes": 33554432
+        },
+        {
+          "name": "Decraft-Legacy-Windows.zip.part014",
+          "path": "chunks/f2a1ccfba91b11cee9cf2eade2ba30afb02da671a45c54fe8766601dee8ad4d8.bin",
+          "sha256": "f2a1ccfba91b11cee9cf2eade2ba30afb02da671a45c54fe8766601dee8ad4d8",
+          "bytes": 16859829
+        }
+      ],
+      "scope": "Supplied native Legacy baseline with rebuilt launcher and Xbox proxy; native Forge/gameplay ports and portal hub not integrated"
     }
   ],
   "unique_chunk_bytes": 1129334270,

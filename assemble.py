@@ -51,7 +51,7 @@ def run(name=None):
             if pending.exists() and count:pending.unlink()
             raise
         print(filename+': verified '+str(count)+' bytes')
-    print('Windows: double-click Launch-Game.cmd. Linux x64: extract the host ZIP and run ./launch-game.sh. Original campaigns/combat remain incomplete.')
+    print('Legacy Windows: use Install-Legacy.cmd, then Decraft-Legacy/Launch-Legacy.cmd. Java reference: Launch-Game.cmd. Original campaigns and native mod ports remain incomplete.')
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
