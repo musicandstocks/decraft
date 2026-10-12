@@ -365,5 +365,6 @@
   "part_file_names": 42,
   "unique_chunks": 35,
   "original_game_complete": false,
-  "scope": "Verified original Linux-host destination test build and source SDK; original campaigns/combat incomplete"
+  "scope": "Verified original Linux-host destination test build and source SDK; original campaigns/combat incomplete",
+  "legacy_download_base_url": "https://github.com/musicandstocks/decraft/raw/e40a8ae25c3267e68374e476b503bf58d8ee1481/chunks/"
 }

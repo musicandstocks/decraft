@@ -7,14 +7,47 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import urllib.request
 import zipfile
+
+def fetch_native_chunks(root,archive,base):
+    chunks=root/'chunks';chunks.mkdir(exist_ok=True)
+    for index,part in enumerate(archive['parts'],1):
+        filename=part['sha256']+'.bin';destination=chunks/filename
+        if len(part['sha256'])!=64 or any(c not in '0123456789abcdef' for c in part['sha256']):
+            raise ValueError('Invalid native download hash')
+        if destination.exists():
+            if destination.stat().st_size!=part['bytes']:
+                raise ValueError('Existing different download chunk preserved: '+filename)
+            continue  # Reassembly checks existing bytes before accepting them.
+        print('Downloading Legacy chunk '+str(index)+'/'+str(len(archive['parts']))+'...',flush=True)
+        sha=hashlib.sha256();count=0
+        with tempfile.NamedTemporaryFile(prefix='.native-chunk-',dir=chunks,delete=False) as out:
+            pending=Path(out.name)
+            try:
+                with urllib.request.urlopen(base+filename,timeout=60) as response:
+                    for block in iter(lambda:response.read(1024*1024),b''):
+                        count+=len(block)
+                        if count>part['bytes']:raise ValueError('Native download exceeds expected length')
+                        sha.update(block);out.write(block)
+                out.flush()
+                if count!=part['bytes'] or sha.hexdigest()!=part['sha256']:
+                    raise ValueError('Native download failed SHA-256 verification')
+            except Exception:
+                out.close();pending.unlink();raise
+        if destination.exists():pending.unlink();raise RuntimeError('Existing chunk preserved')
+        pending.rename(destination)
 
 def install(root):
     sys.path.insert(0,str(root))
     import assemble
-    name='Decraft-Legacy-Windows.zip';assemble.run(name)
-    archive=root/name;destination=root/'Decraft-Legacy'
+    name='Decraft-Legacy-Windows.zip'
     manifest=json.loads((root/'transfer-manifest.json').read_text())
+    record=next(a for a in manifest['archives'] if a['archive']==name)
+    if not (root/name).is_file() and manifest.get('legacy_download_base_url'):
+        fetch_native_chunks(root,record,manifest['legacy_download_base_url'])
+    assemble.run(name)
+    archive=root/name;destination=root/'Decraft-Legacy'
     expected=next(a for a in manifest['archives'] if a['archive']==name)['sha256']
     if assemble.digest(archive)!=expected:raise ValueError('Legacy archive hash mismatch')
     # Existing installations and their save files are always retained.

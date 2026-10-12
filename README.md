@@ -1,6 +1,6 @@
 # Legacy Console Edition target
 
-Download this branch ZIP and extract it, then double-click **Install-Legacy.cmd**. This installs the supplied native Legacy Windows client with the rebuilt launcher and Xbox forwarding adapter. It does not yet include the native portal hub or ported Forge gameplay. See **Decraft-Legacy-porting-sources.zip** for all 22 readable new mod decompilations, 190 converted Halo/PvZ models, the Isaac model port and exact status manifests. The older Java downloads below are retained as references.
+Download the small **Decraft-Legacy-installer.zip**, extract it, then double-click **Install-Legacy.cmd**. It downloads only the Legacy runtime (about 453 MB). The full branch ZIP also works. This installs the supplied native Legacy Windows client with the rebuilt launcher and Xbox forwarding adapter. It does not yet include the native portal hub or ported Forge gameplay. See **Decraft-Legacy-porting-sources.zip** for all 22 readable new mod decompilations, 190 converted Halo/PvZ models, the Isaac model port and exact status manifests. The older Java downloads below are retained as references.
 
 # Decraft build download
 

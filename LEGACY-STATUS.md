@@ -4,7 +4,7 @@ The selected base is the supplied native Legacy Console Edition Windows64 client
 
 ## Launch the correct edition
 
-Download the `build-download-20261011` branch ZIP from GitHub and extract it. Double-click **Install-Legacy.cmd**. It verifies and assembles `Decraft-Legacy-Windows.zip`, extracts into a new `Decraft-Legacy` folder, then launches **Launch-Legacy.exe**. Later launches can use **Decraft-Legacy/Launch-Legacy.cmd**. Java is not required. The installer may download the pinned local Python runtime for archive assembly.
+Download and extract **Decraft-Legacy-installer.zip** from GitHub, then double-click **Install-Legacy.cmd**. It downloads only the verified Legacy runtime chunks. The full `build-download-20261011` branch ZIP also works. It verifies and assembles `Decraft-Legacy-Windows.zip`, extracts into a new `Decraft-Legacy` folder, then launches **Launch-Legacy.exe**. Later launches can use **Decraft-Legacy/Launch-Legacy.cmd**. Java is not required. The installer may download the pinned local Python runtime for archive assembly.
 
 The native launcher uses `runtime/legacy/x64/Release/Minecraft.Client.exe`, sets the working directory to `runtime/legacy/Minecraft.Client`, and passes the supplied client's `1` argument. It retains console errors and client logs. The baseline executable and game assets are supplied binaries, not a newly rebuilt engine. No test worlds or user saves are distributed in this fresh installation.
 
@@ -56,3 +56,5 @@ Full engine recompilation requires matching **MSVC v110 / Visual Studio 2012, Wi
 No supplied Forge mod is fully ported into this native client yet. Forge/NeoForge APIs, mod registration, entity AI, blocks/items, rendering, networking, recipes, world generation and dependencies still need real native implementations. The native Minecraft portal hub, five crossover dimensions, original campaigns and shared progression are not integrated. The earlier Java reference's portal worlds do not transfer automatically to native 4J saves.
 
 See `legacy-mod-port-status.json`, `legacy-model-conversion.json`, `legacy-port-build.json`, the test logs and the development ledger for distinct source/conversion/build/runtime statuses. Work does not continue after the active environment stops.
+
+The supplied Windows64 WinMain falls through after releasing the D3D device without returning a value. This explains why a graceful WM_CLOSE can yield an undefined exit code. `native/legacy/Windows64-shutdown.patch` adds an explicit `return 0` for the next engine rebuild; it is source only and has not been applied to the shipped baseline executable. The launcher preserves and reports actual exit codes.
