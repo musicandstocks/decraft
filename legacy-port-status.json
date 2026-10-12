@@ -1,0 +1,447 @@
+{
+  "target": "Legacy Console Edition native Windows64",
+  "full_fusion_ready": false,
+  "forge_jars_loadable": false,
+  "new_uploaded_mods": [
+    {
+      "name": "pvz alpha 2.jar",
+      "engine_linked": false,
+      "native_gameplay_port": "not_implemented",
+      "sha256": "0a6b7c801d0c1a5d6b1936e39ea04ee887f1db96b38c88940b528f702309825d",
+      "classes": 193,
+      "source_files": 141,
+      "decompilation": "covered_with_warnings",
+      "hard_failure_sources": 0,
+      "structure_warning_sources": 2,
+      "missing_dependency_warning_sources": 141,
+      "native_model_meshes": 15,
+      "dependencies": [
+        {
+          "modId": "geckolib",
+          "versionRange": "[0,)",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "name": "mchalo-neo-1.20.1-2.0.0.jar",
+      "engine_linked": false,
+      "native_gameplay_port": "not_implemented",
+      "sha256": "7d2af5ab6e7aa0722de07e7f59a1a03725d91b6f12060a410f4fef69807954b1",
+      "classes": 89,
+      "source_files": 67,
+      "decompilation": "covered_with_warnings",
+      "hard_failure_sources": 0,
+      "structure_warning_sources": 0,
+      "missing_dependency_warning_sources": 65,
+      "native_model_meshes": 16,
+      "dependencies": [
+        {
+          "modId": "forge",
+          "versionRange": "[47.1,)",
+          "mandatory": true
+        },
+        {
+          "modId": "azurelib",
+          "versionRange": "[2.0.13,)",
+          "mandatory": true
+        }
+      ]
+    },
+    {
+      "name": "pvz_plant_items_damage-1.2.0.jar",
+      "engine_linked": false,
+      "native_gameplay_port": "not_implemented",
+      "sha256": "5bb049d8e64be396bf03d04bed835e959f218257273e63ff30bd4e4324aff5d4",
+      "classes": 71,
+      "source_files": 56,
+      "decompilation": "covered_with_warnings",
+      "hard_failure_sources": 0,
+      "structure_warning_sources": 0,
+      "missing_dependency_warning_sources": 56,
+      "native_model_meshes": 0,
+      "dependencies": []
+    },
+    {
+      "name": "Capsule-1.12.2-3.4.76.jar",
+      "engine_linked": false,
+      "native_gameplay_port": "not_implemented",
+      "sha256": "eb8d062ca92128515b5bc6996ae416c49763f85b1d5f36fbd73cb67c3a2c048e",
+      "classes": 74,
+      "source_files": 58,
+      "decompilation": "covered_with_warnings",
+      "hard_failure_sources": 0,
+      "structure_warning_sources": 5,
+      "missing_dependency_warning_sources": 57,
+      "native_model_meshes": 0,
+      "dependencies": []
+    },
+    {
+      "name": "dbzmod-1.0.jar",
+      "engine_linked": false,
+      "native_gameplay_port": "not_implemented",
+      "sha256": "bd67ed6b97b6272f6cdd2a8f09150e16abaaf8fb5ec665a4512a7b7e223c91f2",
+      "classes": 27,
+      "source_files": 26,
+      "decompilation": "covered_with_warnings",
+      "hard_failure_sources": 0,
+      "structure_warning_sources": 0,
+      "missing_dependency_warning_sources": 25,
+      "native_model_meshes": 0,
+      "dependencies": []
+    },
+    {
+      "name": "haloenergyswordsmod-1.1.jar",
+      "engine_linked": false,
+      "native_gameplay_port": "not_implemented",
+      "sha256": "1f3f1350c7cddd4fff525abf20c8ec72dff2fd36342020bb9994f162134c481e",
+      "classes": 9,
+      "source_files": 9,
+      "decompilation": "covered_with_warnings",
+      "hard_failure_sources": 0,
+      "structure_warning_sources": 0,
+      "missing_dependency_warning_sources": 7,
+      "native_model_meshes": 0,
+      "dependencies": []
+    },
+    {
+      "name": "PvZ Mod v2.9.jar",
+      "engine_linked": false,
+      "native_gameplay_port": "not_implemented",
+      "sha256": "6ded901ad2ab8e6376b71311e85611ea416ac988a28820426b816b51bf80af8c",
+      "classes": 102,
+      "source_files": 86,
+      "decompilation": "covered_with_warnings",
+      "hard_failure_sources": 0,
+      "structure_warning_sources": 0,
+      "missing_dependency_warning_sources": 84,
+      "native_model_meshes": 0,
+      "dependencies": []
+    },
+    {
+      "name": "PvZ_1.0.6.jar",
+      "engine_linked": false,
+      "native_gameplay_port": "not_implemented",
+      "sha256": "61d4713537f29e8b33d4694465c0ac3286d696b5d799216c31ff530c0c638e94",
+      "classes": 73,
+      "source_files": 23,
+      "decompilation": "covered_with_warnings",
+      "hard_failure_sources": 0,
+      "structure_warning_sources": 0,
+      "missing_dependency_warning_sources": 23,
+      "native_model_meshes": 0,
+      "dependencies": []
+    },
+    {
+      "name": "plants_vs_zombies_gospi_edition-2.2.2-forge-1.20.1.jar",
+      "engine_linked": false,
+      "native_gameplay_port": "not_implemented",
+      "sha256": "065b92600865dc1b82a970882823a87c85da6d4fdaab3ef457ef33ba6b0e6b52",
+      "classes": 398,
+      "source_files": 312,
+      "decompilation": "covered_with_warnings",
+      "hard_failure_sources": 0,
+      "structure_warning_sources": 0,
+      "missing_dependency_warning_sources": 311,
+      "native_model_meshes": 30,
+      "dependencies": [
+        {
+          "modId": "geckolib",
+          "versionRange": "[0,)",
+          "mandatory": false
+        },
+        {
+          "modId": "neoforge",
+          "versionRange": "[20.6.117,)",
+          "type": "required"
+        },
+        {
+          "modId": "geckolib",
+          "versionRange": "[0,)",
+          "type": "optional"
+        }
+      ]
+    },
+    {
+      "name": "[1.12.2]pvzmod-0.7.10.jar",
+      "engine_linked": false,
+      "native_gameplay_port": "not_implemented",
+      "sha256": "cc38cebc86e6a090e1f9bb4a2a3d7cf38c0a8432863854671af8fce37520e5f4",
+      "classes": 548,
+      "source_files": 492,
+      "decompilation": "covered_with_warnings",
+      "hard_failure_sources": 0,
+      "structure_warning_sources": 0,
+      "missing_dependency_warning_sources": 473,
+      "native_model_meshes": 0,
+      "dependencies": []
+    },
+    {
+      "name": "pvz_squared-2.0-forge-1.20.1.jar",
+      "engine_linked": false,
+      "native_gameplay_port": "not_implemented",
+      "sha256": "844db196ed2651d31af65fd2e531f9060eab1eac4e3c31d48d58bf011c29e2fb",
+      "classes": 1748,
+      "source_files": 1128,
+      "decompilation": "covered_with_warnings",
+      "hard_failure_sources": 0,
+      "structure_warning_sources": 9,
+      "missing_dependency_warning_sources": 1128,
+      "native_model_meshes": 72,
+      "dependencies": [
+        {
+          "modId": "geckolib",
+          "versionRange": "[0,)",
+          "mandatory": false
+        },
+        {
+          "modId": "neoforge",
+          "versionRange": "[21.1.65,)",
+          "type": "required"
+        },
+        {
+          "modId": "geckolib",
+          "versionRange": "[0,)",
+          "type": "optional"
+        }
+      ]
+    },
+    {
+      "name": "pvz_zengarden-1.8.5.jar",
+      "engine_linked": false,
+      "native_gameplay_port": "not_implemented",
+      "sha256": "83d64261fa9f4633274cad28638878e7a6dbecbcfe7b5484f6a6ce4b1f67b6be",
+      "classes": 1006,
+      "source_files": 732,
+      "decompilation": "covered_with_warnings",
+      "hard_failure_sources": 0,
+      "structure_warning_sources": 6,
+      "missing_dependency_warning_sources": 732,
+      "native_model_meshes": 38,
+      "dependencies": [
+        {
+          "modId": "geckolib",
+          "versionRange": "[0,)",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "name": "pvzgardencraft-1.5-currency-update.jar",
+      "engine_linked": false,
+      "native_gameplay_port": "not_implemented",
+      "sha256": "f536f6467842b2f2af71aab925be825c4c1e5e7f602cc8ea5973a2af4f1304f9",
+      "classes": 121,
+      "source_files": 111,
+      "decompilation": "covered_with_warnings",
+      "hard_failure_sources": 0,
+      "structure_warning_sources": 0,
+      "missing_dependency_warning_sources": 111,
+      "native_model_meshes": 0,
+      "dependencies": [
+        {
+          "modId": "forge",
+          "versionRange": "[47,)",
+          "mandatory": true
+        }
+      ]
+    },
+    {
+      "name": "pvz_gw_plus-0.8-forge-1.20.1.jar",
+      "engine_linked": false,
+      "native_gameplay_port": "not_implemented",
+      "decompilation": "blocked",
+      "reason": "JAR exceeds the tool transfer limit of 32 MiB; not read or executed."
+    },
+    {
+      "name": "simple_peashooter-1.4.0-forge-1.20.1.jar",
+      "engine_linked": false,
+      "native_gameplay_port": "not_implemented",
+      "sha256": "7172eca996a87b43a272707be45b78ac1b4cd1bcac2fd07e83604534c7ccedff",
+      "classes": 98,
+      "source_files": 75,
+      "decompilation": "covered_with_warnings",
+      "hard_failure_sources": 0,
+      "structure_warning_sources": 0,
+      "missing_dependency_warning_sources": 75,
+      "native_model_meshes": 0,
+      "dependencies": []
+    },
+    {
+      "name": "PvZmod_v1.9.jar",
+      "engine_linked": false,
+      "native_gameplay_port": "not_implemented",
+      "sha256": "de2cef85ec67508426c582595b37deeb090021995bc27903407b75dcf2902403",
+      "classes": 821,
+      "source_files": 638,
+      "decompilation": "covered_with_warnings",
+      "hard_failure_sources": 0,
+      "structure_warning_sources": 0,
+      "missing_dependency_warning_sources": 638,
+      "native_model_meshes": 0,
+      "dependencies": []
+    },
+    {
+      "name": "rhyme-1.0.0-all.jar",
+      "engine_linked": false,
+      "native_gameplay_port": "not_implemented",
+      "sha256": "672e420262c4e4d6fe381790b6c9b6118a8f9d9b22f78d60d20cc9e5648a1c31",
+      "classes": 289,
+      "source_files": 233,
+      "decompilation": "covered_with_warnings",
+      "hard_failure_sources": 0,
+      "structure_warning_sources": 0,
+      "missing_dependency_warning_sources": 219,
+      "native_model_meshes": 10,
+      "dependencies": [
+        {
+          "modId": "forge",
+          "versionRange": "[47,)",
+          "mandatory": true
+        }
+      ]
+    },
+    {
+      "name": "tboi_mod-0.22.0-forge-1.20.1.jar",
+      "engine_linked": false,
+      "native_gameplay_port": "not_implemented",
+      "sha256": "fa08cffac2f91b515405e87ee1bd70c545358eab34dfd6927b06d5b64e0bfb5b",
+      "classes": 1681,
+      "source_files": 1092,
+      "decompilation": "covered_with_warnings",
+      "hard_failure_sources": 0,
+      "structure_warning_sources": 5,
+      "missing_dependency_warning_sources": 1091,
+      "native_model_meshes": 0,
+      "dependencies": []
+    },
+    {
+      "name": "geckolib-forge-1.20.1-4.8.4.jar",
+      "engine_linked": false,
+      "native_gameplay_port": "not_implemented",
+      "sha256": "4518779a31b6c2abb92c98b5ad17ef3d60177df68626bfc86c44de2764913c2b",
+      "classes": 260,
+      "source_files": 189,
+      "decompilation": "covered_with_warnings",
+      "hard_failure_sources": 0,
+      "structure_warning_sources": 0,
+      "missing_dependency_warning_sources": 157,
+      "native_model_meshes": 0,
+      "dependencies": [
+        {
+          "modId": "forge",
+          "versionRange": "[47.1,)",
+          "mandatory": true
+        },
+        {
+          "modId": "geckoanimfix",
+          "versionRange": "[9.removeoculusgeckolibcompat,)",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "name": "TBOI By Suzu (v1.3).jar",
+      "engine_linked": false,
+      "native_gameplay_port": "not_implemented",
+      "sha256": "5c7b9213ec6dbd3acc719ef965b2973677b8e2b849c8ad0c30a5ea0920b8f76b",
+      "classes": 541,
+      "source_files": 331,
+      "decompilation": "covered_with_warnings",
+      "hard_failure_sources": 0,
+      "structure_warning_sources": 0,
+      "missing_dependency_warning_sources": 331,
+      "native_model_meshes": 0,
+      "dependencies": []
+    },
+    {
+      "name": "kingquinspvz-1.0.0-forge-1.20.1.jar",
+      "engine_linked": false,
+      "native_gameplay_port": "not_implemented",
+      "sha256": "0a840bdbe02a2d483e1053dc3b0a5875c54cb0bb4f7aea1181dbfb9d90952d0c",
+      "classes": 96,
+      "source_files": 83,
+      "decompilation": "covered_with_warnings",
+      "hard_failure_sources": 0,
+      "structure_warning_sources": 0,
+      "missing_dependency_warning_sources": 83,
+      "native_model_meshes": 9,
+      "dependencies": [
+        {
+          "modId": "geckolib",
+          "versionRange": "[0,)",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "name": "isaac_style_consumables-1.2.1-forge-1.20.1.jar",
+      "engine_linked": false,
+      "native_gameplay_port": "not_implemented",
+      "sha256": "77334f01312b13993cd9225925d8bf3c0625cbafa183298b97a900d90f3e1623",
+      "classes": 317,
+      "source_files": 293,
+      "decompilation": "covered_with_warnings",
+      "hard_failure_sources": 0,
+      "structure_warning_sources": 0,
+      "missing_dependency_warning_sources": 293,
+      "native_model_meshes": 0,
+      "dependencies": []
+    },
+    {
+      "name": "Scootys PvZ 0.4.1.jar",
+      "engine_linked": false,
+      "native_gameplay_port": "not_implemented",
+      "sha256": "962d95dbc8f717f0a29aa3476a2e8867916a7bc1efbe9110b6463c0917f7cd4d",
+      "classes": 350,
+      "source_files": 167,
+      "decompilation": "covered_with_warnings",
+      "hard_failure_sources": 0,
+      "structure_warning_sources": 0,
+      "missing_dependency_warning_sources": 165,
+      "native_model_meshes": 0,
+      "dependencies": []
+    },
+    {
+      "name": "Digimobs-1.1.8d.jar",
+      "engine_linked": false,
+      "native_gameplay_port": "not_implemented",
+      "decompilation": "blocked",
+      "reason": "JAR exceeds the tool transfer limit of 32 MiB; not read or executed."
+    }
+  ],
+  "decompilation_totals": {
+    "archives": 22,
+    "status_covered_with_warnings": 22,
+    "class_entries": 8912,
+    "unique_class_names": 8912,
+    "expected_top_level_source_units": 6342,
+    "actual_source_files": 6342,
+    "candidate_source_units_including_compiler_helpers": 6342,
+    "optional_compiler_helper_source_units": 0,
+    "optional_compiler_helper_classes_without_source": 0,
+    "duplicate_class_entries": 0,
+    "present_expected_source_units": 6342,
+    "bytecode_classes_with_containing_source": 8912,
+    "bytecode_entries_with_containing_source": 8912,
+    "missing_sources": 0,
+    "hard_failure_sources": 0,
+    "missing_dependency_warning_sources": 6265,
+    "structure_warning_sources": 27,
+    "metadata_errors": 0,
+    "fallback_targets": 0
+  },
+  "original_modpack_decompilation_root": "/workspace/modpack-decompile",
+  "native_gameplay_mod_ports_completed": 0,
+  "native_engine_linked_models": 0,
+  "native_model_meshes_converted": 190,
+  "source_models_ported": [
+    "Suzu ModelIsaac geometry and walking/head animation"
+  ],
+  "blockers": [
+    "MSVC v110/Windows SDK/MSBuild not present in this execution environment",
+    "Forge/NeoForge/GeckoLib and other Java APIs need native gameplay/entity/registration ports",
+    "Two uploaded JARs exceed the 32 MiB download-tool limit"
+  ],
+  "repentance_enabled": false
+}

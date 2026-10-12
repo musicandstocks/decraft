@@ -1,0 +1,40 @@
+{
+  "status": "native_world_hud_camera_inventory_verified_under_wine",
+  "native_engine_rebuilt": false,
+  "physical_xbox_hardware_tested": false,
+  "launcher_sha256": "2dcba0ae3053f6f46a0dc46256163f8a2aa855bc89edaff9b16c251c5f5fc6bb",
+  "input_dll_sha256": "401a0601bd12fb692af99b300fb92eb4e9eb11ad4f24d7a1977c54273365575a",
+  "run": "/workspace/runtime-tools/logs/baseline-52pjohjr",
+  "world_entry": true,
+  "original_hud": true,
+  "camera_rotation": true,
+  "keyboard_movement_input_and_changed_view": true,
+  "inventory_rendering": true,
+  "normal_save_and_quit_flow_verified": false,
+  "shutdown": "Bounded diagnostic used WM_CLOSE on the recorded owned client PID",
+  "scope": "Supplied native baseline; no native Forge mod gameplay or portal integration",
+  "screenshots": [
+    {
+      "file": "/workspace/runtime-tools/logs/baseline-52pjohjr/verified-movement.png",
+      "sha256": "23c8eb7d0f03fdc02ad44db0f3848b7165013d928db01c2b129b94c7a42192f5"
+    },
+    {
+      "file": "/workspace/runtime-tools/logs/baseline-52pjohjr/inventory-visible.png",
+      "sha256": "9bd4749a3a25fbd4329f3f134fee3f6165d376c92e7c7025185ab78279aec4c5"
+    },
+    {
+      "file": "/workspace/runtime-tools/logs/baseline-52pjohjr/native-world.png",
+      "sha256": "2f2738376b0392c89e4a5f646fff3cceb2c33083a27939c6791af3f6059981fe"
+    },
+    {
+      "file": "/workspace/runtime-tools/logs/baseline-52pjohjr/verified-look.png",
+      "sha256": "77d68f8e6fdb5bab66f8aa7801757bfc68dbee42ffff9cd060f2d57dd1009b59"
+    }
+  ],
+  "regression_tests": 90,
+  "regression_passed": true,
+  "regression_log": "logs/legacy-final-regression.log",
+  "original_inputs_retained": true,
+  "bounded_shutdown_exit_code": 2138,
+  "normal_launch_exit_code_unverified": true
+}
