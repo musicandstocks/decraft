@@ -1,0 +1,17 @@
+# Java with Legacy-style presentation
+
+The selected base is the existing Java Forge 1.7.10 modpack. The user accepts Java and wants the UI to look like Legacy Console Edition. Native source/model work is retained as an alternative.
+
+Extract `Decraft-Java-Legacy-UI-update.zip` into the folder you already use to launch Decraft (the folder containing `Launch-Game.cmd`, or the downloaded branch with `Decraft-game`). Run **Launch-Legacy-Style.cmd**. The staged updater installs only recognized prior bridge/controller files, backs them up, and preserves saved worlds and original mods. It uses the already-installed Windows Java/Python when present. Mystcraft stays enabled and uses its documented per-save background profiling mode; the original config is backed up, and other settings are preserved. VoxelMenu’s supported standard pause screen is selected so its nested custom panel does not cover the Legacy buttons; the original setting is backed up. Do not extract the update into `mods`.
+
+The theme runs over the pack’s existing title screen and original screen actions. A final render hook handles custom menus that bypass standard Forge drawing hooks, without repeatedly replacing the menu. The update supplies gray beveled buttons, blue hover selection, a vertical main menu, a vertical pause menu with Portal Hub access, inventory borders, controller prompts, D-pad button navigation and original HUD plus Inventory/Jump/Hub hints. Original button actions, inventory slots, recipes and mod interfaces remain in control. This is a Legacy-inspired presentation, not an exact console UI port or a change to the engine edition.
+
+Xbox/XInput: sticks move/look or point in menus; A jumps/selects; Y opens inventory; X shift-clicks in inventory; triggers attack/use; bumpers select hotbar slots; Menu pauses; View sends F6 for the portal hub. Keyboard F6 and the pause-menu Portal Hub button also work. Physical Xbox hardware is unavailable here. Windows controller context uses delete-sharing and updates only when menu/game mode changes. F6 is registered as a real key binding; its obsolete default Twitch binding is cleared only when it still occupies F6. The pulse queue catches short controller presses.
+
+Mystcraft’s temporary profiling save is excluded from automatic hub creation. New single-player worlds without hub metadata receive the six physical portal frames in verified empty overworld space. Existing hub and destination saves are retained. The five destination worlds remain limited adaptations; full original campaigns, NPC combat and faithful game progression are incomplete. The newly uploaded 1.12/1.20 mods still need compatibility ports before they can be loaded by the 1.7.10 host. Their decompiled source and recovered models are preserved.
+
+Build in the prepared workspace with `python tools/build_forge_bridge.py`. The bridge uses the original Forge binary and reflection against the loaded original Minecraft API; it does not ship replacement Minecraft classes. Use `python -m unittest discover -s tests -v` with loopback access. Disable the styling with JVM property `-Ddecraft.legacyUI=false` when diagnosing another GUI mod.
+
+Actual artifact hashes and runtime evidence belong in `java-legacy-ui-validation.json`. Build success and controller mapping tests do not establish a complete fused game or physical Xbox validation.
+
+A final render hook applies the presentation even when a custom menu bypasses normal screen drawing hooks. Original sliders and action handlers remain in control.

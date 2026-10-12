@@ -1,4 +1,10 @@
-# Legacy Console Edition target
+# Java with Legacy-style UI — current download
+
+The selected base is Java Forge 1.7.10. If your Minecraft installation already opens, download **Decraft-Java-Legacy-UI-update.zip**, extract it into your existing launch folder (the one containing `Launch-Game.cmd`, or the branch folder containing `Decraft-game`), then run **Launch-Legacy-Style.cmd**. Do not extract it into `mods`. The update retains saves and original mods and includes Legacy-inspired beveled menus, controller prompts, inventory presentation and Portal Hub access. Actual verification scope is in **java-legacy-ui-validation.json** and **JAVA-LEGACY-UI.md**. Full original crossover campaigns remain unfinished.
+
+For a fresh installation, use the Java Windows steps below, then apply the small UI update. Original native work and archive links remain available as an alternative.
+
+# Preserved native Legacy alternative
 
 Download the small **Decraft-Legacy-installer.zip**, extract it, then double-click **Install-Legacy.cmd**. It downloads only the Legacy runtime (about 453 MB). The full branch ZIP also works. This installs the supplied native Legacy Windows client with the rebuilt launcher and Xbox forwarding adapter. It does not yet include the native portal hub or ported Forge gameplay. See **Decraft-Legacy-porting-sources.zip** for all 22 readable new mod decompilations, 190 converted Halo/PvZ models, the Isaac model port and exact status manifests. The older Java downloads below are retained as references.
 

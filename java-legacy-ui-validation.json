@@ -1,0 +1,51 @@
+{
+  "status": "menu_hud_inventory_and_hub_verified_pause_reload_pending",
+  "bridge_sha256": "7b02eb58f163e345050d2e407d527a4ea65f6a421e3a004fc745a819c2f73b6e",
+  "platform": "Actual Windows Java and Python under Wine; native Windows desktop unverified",
+  "menu_verified": true,
+  "stable_pack_menu": true,
+  "options_real_action_verified": true,
+  "creative_inventory_border_and_prompts_verified": true,
+  "original_in_game_hud_plus_controller_hints_verified": true,
+  "automatic_new_world_hub_verified": true,
+  "six_routes": [
+    "minecraft",
+    "isaac",
+    "bt3",
+    "halo2",
+    "digimon",
+    "pvz"
+  ],
+  "actual_hub_click_verified": true,
+  "simulated_xbox_dpad_and_a_real_windows_input_verified": true,
+  "simulated_xbox_view_real_hub_action_verified": true,
+  "physical_xbox_hardware_verified": false,
+  "standard_pause_setting_applied_and_backed_up": true,
+  "standard_pause_layout_verified": false,
+  "normal_save_quit_and_reload_verified": false,
+  "original_save_snapshot_files": 812,
+  "original_snapshot_changed": 0,
+  "original_snapshot_missing": 0,
+  "run": "/workspace/runtime-tools/logs/combined-w3jxp6ns",
+  "windows_log_directory": "/tmp/decraft-windows-host/runtime/logs/combined-9bol6n47",
+  "bounded_run_exit_code": 2,
+  "bounded_run_exit_reason": "30-minute diagnostic bound reached while configuring original VoxelMenu; final reload test running",
+  "final_reload_run": "/workspace/runtime-tools/logs/combined-23562z8k",
+  "python_regressions": 91,
+  "forge_transport": "passed for this bridge",
+  "full_fusion_ready": false,
+  "full_game_complete": false,
+  "remaining_scope": "Full campaigns, original game combat/progression and newer uploaded mod compatibility ports remain unfinished",
+  "screenshots": [
+    "/workspace/runtime-tools/logs/combined-w3jxp6ns/legacy-menu.png",
+    "/workspace/runtime-tools/logs/combined-w3jxp6ns/legacy-options.png",
+    "/workspace/runtime-tools/logs/combined-w3jxp6ns/legacy-hud.png",
+    "/workspace/runtime-tools/logs/combined-w3jxp6ns/legacy-inventory.png"
+  ],
+  "evidence_sha256": {
+    "logs/java-legacy-ui-final-regression.log": "4d539949e0bf525dc2df63d80421262b0434d7b4295c45fef82085221edfd96d",
+    "logs/java-legacy-ui-transport.log": "e78b242ab36f5b16bde2e3b17840cb294ecdd53079c6374f5532bb2b03cb966f",
+    "logs/java-xbox-menu-input.log": "5c0ac8fd95815df556b4af130acb13ff570b7e077f5659c5f9c7bffee91e37f2",
+    "logs/java-legacy-ui-staged-updater.log": "33941862d9680c59e27caf568393db56464621c9a402bd4b8c761e82497545db"
+  }
+}
