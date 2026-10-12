@@ -1,5 +1,5 @@
 {
-  "status": "menu_hud_inventory_and_hub_verified_pause_reload_pending",
+  "status": "passed_java_legacy_presentation_update",
   "bridge_sha256": "7b02eb58f163e345050d2e407d527a4ea65f6a421e3a004fc745a819c2f73b6e",
   "platform": "Actual Windows Java and Python under Wine; native Windows desktop unverified",
   "menu_verified": true,
@@ -21,8 +21,8 @@
   "simulated_xbox_view_real_hub_action_verified": true,
   "physical_xbox_hardware_verified": false,
   "standard_pause_setting_applied_and_backed_up": true,
-  "standard_pause_layout_verified": false,
-  "normal_save_quit_and_reload_verified": false,
+  "standard_pause_layout_verified": true,
+  "normal_save_quit_and_reload_verified": true,
   "original_save_snapshot_files": 812,
   "original_snapshot_changed": 0,
   "original_snapshot_missing": 0,
@@ -40,12 +40,78 @@
     "/workspace/runtime-tools/logs/combined-w3jxp6ns/legacy-menu.png",
     "/workspace/runtime-tools/logs/combined-w3jxp6ns/legacy-options.png",
     "/workspace/runtime-tools/logs/combined-w3jxp6ns/legacy-hud.png",
-    "/workspace/runtime-tools/logs/combined-w3jxp6ns/legacy-inventory.png"
+    "/workspace/runtime-tools/logs/combined-w3jxp6ns/legacy-inventory.png",
+    "/workspace/runtime-tools/logs/combined-23562z8k/legacy-pause-final.png",
+    "/workspace/runtime-tools/logs/combined-23562z8k/reload-world.png",
+    "/workspace/runtime-tools/logs/combined-23562z8k/saved-to-title.png"
   ],
   "evidence_sha256": {
     "logs/java-legacy-ui-final-regression.log": "4d539949e0bf525dc2df63d80421262b0434d7b4295c45fef82085221edfd96d",
     "logs/java-legacy-ui-transport.log": "e78b242ab36f5b16bde2e3b17840cb294ecdd53079c6374f5532bb2b03cb966f",
     "logs/java-xbox-menu-input.log": "5c0ac8fd95815df556b4af130acb13ff570b7e077f5659c5f9c7bffee91e37f2",
-    "logs/java-legacy-ui-staged-updater.log": "33941862d9680c59e27caf568393db56464621c9a402bd4b8c761e82497545db"
-  }
+    "logs/java-legacy-ui-staged-updater.log": "33941862d9680c59e27caf568393db56464621c9a402bd4b8c761e82497545db",
+    "final_minecraft_log": "33f1ce6890c136b5ce2d510f0a5424361e48186321fc8498d56bc24fc016b513",
+    "final_result": "e60f3c6992eb2239ab9077b0bd89efc47b9460a738a3781669212a01222a3ab4"
+  },
+  "standard_pause_hub_button_verified": true,
+  "diagnostic_save_reload_verified": true,
+  "normal_save_quit_verified": true,
+  "final_client_exit_code": 0,
+  "owned_processes_stopped": true,
+  "final_bridge_events": 90,
+  "saved_hub_anchor": "1030,10,-526",
+  "saved_physical_gate_blocks_verified": [
+    {
+      "destination": "minecraft",
+      "obsidian_frame_blocks": 10,
+      "colored_glass_blocks": 6,
+      "saved_sign": "MINECRAFT"
+    },
+    {
+      "destination": "isaac",
+      "obsidian_frame_blocks": 10,
+      "colored_glass_blocks": 6,
+      "saved_sign": "ISAAC FLASH"
+    },
+    {
+      "destination": "bt3",
+      "obsidian_frame_blocks": 10,
+      "colored_glass_blocks": 6,
+      "saved_sign": "DBZ BT3"
+    },
+    {
+      "destination": "halo2",
+      "obsidian_frame_blocks": 10,
+      "colored_glass_blocks": 6,
+      "saved_sign": "HALO 2"
+    },
+    {
+      "destination": "digimon",
+      "obsidian_frame_blocks": 10,
+      "colored_glass_blocks": 6,
+      "saved_sign": "DIGIMON WORLD 2"
+    },
+    {
+      "destination": "pvz",
+      "obsidian_frame_blocks": 10,
+      "colored_glass_blocks": 6,
+      "saved_sign": "PVZ"
+    }
+  ],
+  "saved_hub_not_rebuilt_on_reload": true,
+  "bound_failure_retained": "First final-bridge test reached its 30-minute diagnostic bound while inspecting VoxelMenu configuration; second run completed normal Save/Quit and process shutdown.",
+  "additional_evidence_files": [
+    {
+      "path": "/tmp/decraft-windows-host/runtime/logs/combined-nc10ibtk/result.json",
+      "archive_name": "verification/windows-final-result.json"
+    },
+    {
+      "path": "/tmp/decraft-windows-host/runtime/logs/combined-nc10ibtk/minecraft.log",
+      "archive_name": "verification/windows-final-minecraft.log"
+    },
+    {
+      "path": "/workspace/runtime-tools/logs/combined-w3jxp6ns/windows-test-result.json",
+      "archive_name": "verification/earlier-bounded-run-result.json"
+    }
+  ]
 }
